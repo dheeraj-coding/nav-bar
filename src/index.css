@@ -46,13 +46,17 @@
 
 .nav-btn:link,
 .nav-btn:visited,
-.nav-btn:hover,
 .nav-btn:active {
     color: rgb(102, 153, 153);
     text-decoration: none;
 }
 
 .nav-btn-selected {
+    border-bottom: 4pt solid rgb(255, 51, 51);
+    color: rgb(255, 51, 51);
+}
+
+.nav-btn:hover {
     border-bottom: 4pt solid rgb(255, 51, 51);
     color: rgb(255, 51, 51);
     background-color: rgb(153, 153, 153);
